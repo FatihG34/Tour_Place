@@ -5,9 +5,14 @@ const Card = ({ title, img, desc }) => {
     return (
         <div className='flex_container'>
             <div className='cards'>
-                <h2>{title}</h2>
+                <div className="title">
+                    <h1>{title}</h1>
+                </div>
                 <img src={img} alt={title} />
-                <p>{desc}</p>
+                <div className="card-over">
+                    <p>{desc}</p>
+                </div>
+
             </div>
         </div>
     )
