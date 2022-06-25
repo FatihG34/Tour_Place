@@ -12,7 +12,7 @@ function App() {
       {data.map((item) => {
         const { id, title, image, desc } = item;
         return (
-          <Card id={id} title={title} img={image} desc={desc} />
+          <Card key={id} title={title} img={image} desc={desc} />
 
         )
       })}

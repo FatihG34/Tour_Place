@@ -1,10 +1,9 @@
 import React from 'react'
+import "./Card.css";
 
-const Card = ({ id, title, img, desc }) => {
-    // const { id, title, img, desc } = props
-    console.log(img);
+const Card = ({ title, img, desc }) => {
     return (
-        <div className='gird_container'>
+        <div className='flex_container'>
             <div className='cards'>
                 <h2>{title}</h2>
                 <img src={img} alt={title} />

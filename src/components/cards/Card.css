@@ -1,4 +1,50 @@
-.gird_container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.flex_container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+
+}
+
+.cards {
+    background-color: rgba(28, 26, 26, 0.878);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    position: relative;
+    overflow: hidden;
+}
+
+.flex_container:hover .cards p {
+    transform: translateY(0);
+}
+
+.cards h2 {
+    text-align: left;
+    color: white;
+    font-size: 2.5rem;
+    padding: .5rem;
+}
+
+.cards img {
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.cards img:hover {
+    filter: grayscale(100);
+}
+
+.cards p {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+    padding: 1rem;
+    transform: translateY(100%);
+    z-index: 1;
+    transition: transform 0.7s ease-in-out;
 }

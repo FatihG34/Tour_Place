@@ -5,12 +5,12 @@ const Navbar = () => {
     return (
         <nav className='nav_container'>
 
-            <div><a href="first_react_project\public\index.html">ABOUT US</a></div>
-            <div><a href="#">FOR YOU</a></div>
-            <div><a href="#">SERVICES</a></div>
-            <div><a href="#">BLOG</a></div>
-            <div><a href="#">VLOG</a></div>
-            <div><a href="#">CONTACT</a></div>
+            <a href="first_react_project\public\index.html">ABOUT US</a>
+            <a href="#">FOR YOU</a>
+            <a href="#">SERVICES</a>
+            <a href="#">BLOG</a>
+            <a href="#">VLOG</a>
+            <a href="#">CONTACT</a>
 
         </nav>
     )
