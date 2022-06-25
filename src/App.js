@@ -9,7 +9,13 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      <Card />
+      {data.map((item) => {
+        const { id, title, image, desc } = item;
+        return (
+          <Card id={id} title={title} img={image} desc={desc} />
+
+        )
+      })}
     </div>
   );
 }
