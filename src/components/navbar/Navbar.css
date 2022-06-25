@@ -1,0 +1,27 @@
+.nav_container {
+    background-color: black;
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav_container div {
+    width: 5rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.nav_container a {
+    text-decoration: none;
+    color: white;
+    align-self: center;
+}
+
+.nav_container div:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
