@@ -1,4 +1,4 @@
-# Tour Places App
+#  Tour Places App
 ## Description
 
 Project aims completed and created a Tour Places App.
@@ -7,7 +7,7 @@ Project aims completed and created a Tour Places App.
 - I have used to CSS for Styling in React Project
 
 ## Outcome
-This project was bootstrapped with [Create React App](https://fatihg34.github.io/first_react_project/).
+You can visit with [Tour Place App](https://fatihg34.github.io/first_react_project/).
 
 ![Project Snapshot](./src/assets/Tour%20Places.gif)
 
