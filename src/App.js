@@ -9,13 +9,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
-      {data.map((item) => {
-        const { id, title, image, desc } = item;
-        return (
-          <Card key={id} title={title} img={image} desc={desc} />
-
-        )
-      })}
+      <div className='flex_container'>
+        {data.map((item, index) => <Card key={index} {...item} />)}
+      </div>
     </div>
   );
 }
