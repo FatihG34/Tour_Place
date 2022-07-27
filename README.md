@@ -7,7 +7,7 @@ Project aims completed and created a Tour Places App.
 - I have used to CSS for Styling in React Project
 
 ## Outcome
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://fatihg34.github.io/first_react_project/).
 
 ![Project Snapshot](./src/assets/Tour%20Places.gif)
 

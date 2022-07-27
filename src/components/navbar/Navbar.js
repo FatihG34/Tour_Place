@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav className='nav_container'>
 
-            <a href="first_react_project\public\index.html">ABOUT US</a>
+            <a href="#">ABOUT US</a>
             <a href="#">FOR YOU</a>
             <a href="#">SERVICES</a>
             <a href="#">BLOG</a>
